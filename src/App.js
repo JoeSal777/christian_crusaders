@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 
 import Landingpage from "./components/LandingPage";
 import Navbar from "./components/Navbar";
@@ -15,7 +15,7 @@ class App extends Component{
         <Routes>
           <Route exact path="/" element={<Landingpage/>} />
           <Route path="/contact" element={<Contact/>} />
-          < Route path="*" element={<Default/>} />
+          <Route path="*" element={<Default/>} />
         </Routes>       
     </React.Fragment>
     );

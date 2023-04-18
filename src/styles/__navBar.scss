@@ -1,0 +1,137 @@
+.navbar {
+    margin-left: 20px;  //these work on mobile view, for larger display check the media queries
+    margin-right: 20px;
+    width: auto !important;
+    background-color: #DEDEDE;
+    z-index: 1;
+  }
+  .nav-center {
+    width: 100%;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between !important;
+  }
+  .nav_logo{
+    margin: auto;
+  }
+  .nav-btn-small-screen {
+    background: transparent;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .nav-btn-small-screen button{
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+  }
+  .nav-btn-small-screen button:focus {
+    outline: none;
+  }
+  .nav-header button:focus {
+    outline: none;
+  }
+  button:focus {
+    outline: none;
+    border:none;
+  }
+  .nav-btn-big-screen{
+    display: none;
+  }
+  .nav-icon {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--mainTransition);
+    transition-duration: 1.5s;
+    list-style-type: none;
+    color:var(--secondaryColor) !important;
+    text-transform: capitalize !important;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+  }
+  .nav-links a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    transition: var(--mainTransition);
+    text-align: right;
+    transition-duration: 1s;
+    //@include standardFonts();
+  }
+  .nav-links a:hover {
+    text-decoration: none;
+  }
+  
+  .show-nav {
+    height: 100px;
+    background: transparent;
+    transition-duration: 1s;
+  }
+  @media screen and (min-width: 768px) {
+    .navbar{
+      padding: 0 50px;
+      width: auto;
+      height: auto;
+      margin: 0;
+    }
+    .nav-btn-small-screen {
+      display: none;
+    }
+    .nav-btn-big-screen{
+      display: inline-block;
+      vertical-align: middle;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      outline: none;
+  
+      
+    }
+    .nav-btn-big-screen button{
+      background: transparent;
+      border: none;
+      transition-duration: 1s ease;
+      color: var(--secondaryColor);
+      font-size: 1.2rem;
+  
+      // for backward-movement animation thingy
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform; 
+      
+    }
+    .nav-btn-big-screen button:hover, .nav-btn-big-screen button:focus, .nav-btn-big-screen button:active{
+      -webkit-transform: scale(110%);
+      transform: scale(110%);
+    }
+    .nav-btn-big-screen button:focus {
+      outline: none;
+    }
+    .nav-center {
+      max-width: auto;
+      display: flex;
+      vertical-align: middle;
+    }
+    .nav-links {
+      height: auto;
+      display: flex;
+      padding: 0rem;
+      margin: auto;
+      font-size: 0.95em;
+    }
+    .nav-links a {
+      margin: 0 1rem;
+      padding: 0.5rem 0;
+    }
+  }
