@@ -2,7 +2,7 @@
     margin-left: 20px;  //these work on mobile view, for larger display check the media queries
     margin-right: 20px;
     width: auto !important;
-    background-color: #DEDEDE;
+    background-color: var(--CCBlue);
     z-index: 1;
   }
   .nav-center {
@@ -50,7 +50,7 @@
     transition: var(--mainTransition);
     transition-duration: 1.5s;
     list-style-type: none;
-    color:var(--secondaryColor) !important;
+    color: var(--secondaryColor) !important;
     text-transform: capitalize !important;
     text-decoration: none;
     width: 100%;
@@ -76,7 +76,7 @@
   }
   @media screen and (min-width: 768px) {
     .navbar{
-      padding: 0 50px;
+      padding: 15px 50px;
       width: auto;
       height: auto;
       margin: 0;
@@ -90,9 +90,7 @@
       background: transparent;
       border: none;
       cursor: pointer;
-      outline: none;
-  
-      
+      outline: none;  
     }
     .nav-btn-big-screen button{
       background: transparent;
@@ -102,13 +100,13 @@
       font-size: 1.2rem;
   
       // for backward-movement animation thingy
-      -webkit-transform: perspective(1px) translateZ(0);
-      transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-property: transform;
-      transition-property: transform; 
+      // -webkit-transform: perspective(1px) translateZ(0);
+      // transform: perspective(1px) translateZ(0);
+      // box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      // -webkit-transition-duration: 0.3s;
+      // transition-duration: 0.3s;
+      // -webkit-transition-property: transform;
+      // transition-property: transform; 
       
     }
     .nav-btn-big-screen button:hover, .nav-btn-big-screen button:focus, .nav-btn-big-screen button:active{

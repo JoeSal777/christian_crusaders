@@ -48,10 +48,10 @@ class Navbar extends Component {
                     {/* For nav menu */}
                     <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
                         <li>
-                            <Link to="https://www.google.com/" onClick={this.handleToggle}>Menu Item 1.</Link>
+                            <Link to="https://www.google.com/" onClick={this.handleToggle}>About</Link>
                         </li>
                         <li>
-                            <Link to="https://www.google.com/" onClick={this.handleToggle}>Menu Item 2.</Link>
+                            <Link to="https://www.google.com/" onClick={this.handleToggle}>Services</Link>
                         </li>
                     </ul>
 

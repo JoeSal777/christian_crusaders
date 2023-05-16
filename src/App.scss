@@ -1,25 +1,54 @@
 :root{
     --primaryColor:#000000;
     --secondaryColor:#cdc3ff;
-    --accentColor: #820199;
-    --lightAccentColor: hsl(291, 48%, 70%);
-    --secondaryAccentColor: #990000;
-    --highlightColor: #820199;
-    --textSelectionColor: #ffffff;
-    --primaryFont: 'Nunito', sans-serif;
-    --secondaryFont: 'Poiret One', cursive;
-    --tertiaryFont: 'Poiret One', cursive;
+    --CCRed: #cc1133;
+    --CCBlue: #00002c;
+    --CCBlueLight: #1a1259;
+    --CCBlueTint: #ccccee;
+    --CCRedTint: #fff3f3;
+    --primaryFont: 'Archivo', sans-serif;
+    --secondaryFont: 'BioRhyme', serif;
+    --tertiaryFont: 'BioRhyme Expanded', serif;
   }
 
   @import "./styles/_navBar.scss";
+  @import "./styles/_home_slide.scss";
 
   body{
-    font-family: var(--primaryFont) !important;
-    background: var(--mainDark) !important;
+    font-family: var(--primaryFont);
     margin: 0px;
     overflow: auto;
     -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
   }
+
+  .sub-heading {
+    font-size: 1.618rem;
+    font-weight: 600;
+  }
+  
+  .heading {
+    font-size: 2.618rem;
+    font-weight: 400;
+  }
+  
+  .large-heading {
+    font-size: 4.236rem;
+    font-weight: 500;
+    font-family: var(--tertiaryFont);
+  }
+  
+  .footnote {
+    font-size: 0.618rem;
+    font-weight: 500;
+  }
+
+  h2, h3{
+    margin: 0;
+    line-height: 1em;
+  }
+  
+
+
   body::-webkit-scrollbar {
     display: none;
   }
@@ -34,6 +63,4 @@
     background: var(--highlightColor);
   }
 
-  h3{
-    background-color: red;
-  }
+  // .landingPage_wrapper{  }

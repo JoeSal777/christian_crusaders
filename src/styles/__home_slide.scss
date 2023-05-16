@@ -1,0 +1,13 @@
+.jumbo_outer{
+    margin: 0;
+    background-color: var(--CCBlue);
+    color: var(--CCBlueLight);
+    font-size: 5em;
+    min-height: 100vh;
+}
+
+.jumbo_inner{
+    width: 86%;
+    margin: auto;
+    overflow-wrap: break-word;
+}
