@@ -9,10 +9,12 @@
     --primaryFont: 'Archivo', sans-serif;
     --secondaryFont: 'BioRhyme', serif;
     --tertiaryFont: 'BioRhyme Expanded', serif;
+    --maxContentWidth: 1135px;
   }
 
   @import "./styles/_navBar.scss";
   @import "./styles/_home_slide.scss";
+  @import "./styles/_landingPage.scss";
 
   body{
     font-family: var(--primaryFont);
@@ -34,17 +36,27 @@
   .large-heading {
     font-size: 4.236rem;
     font-weight: 500;
+    line-height: 120%;
     font-family: var(--tertiaryFont);
   }
   
+  .navbar_font{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--secondaryFont);
+  }
   .footnote {
     font-size: 0.618rem;
     font-weight: 500;
   }
 
-  h2, h3{
+  .global_outer_area{
     margin: 0;
-    line-height: 1em;
+  }
+  .global_inner_area{
+    margin: 0;
+    width: 86%;
+    max-width: var(--maxContentWidth);
   }
   
 
@@ -62,5 +74,3 @@
     color: var(--textSelectionColor);
     background: var(--highlightColor);
   }
-
-  // .landingPage_wrapper{  }

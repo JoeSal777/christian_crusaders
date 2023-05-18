@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../images/logo32.png';
+import logo from '../cc_logo.svg';
 import menu_arcade from "../images/menu_arcade_32.png";
-import contact_logo from "../images/mail/mail_arcade_32.png";
-//import {FiMail} from "react-icons/fi";
 import {Link} from "react-router-dom"; 
 
 
@@ -22,22 +20,12 @@ class Navbar extends Component {
         return (
             <nav className="navbar">
                 <div className="nav-center">
-                    <div className="nav-header">
-                        
-                        {/* For contact-me icon in mobile view */}
-                        <Link to="https://www.google.com/" className="nav-btn-small-screen" onClick={this.resetToggle}>
-                            <button type="button">
-                                <img src={contact_logo} alt="Logo" className="Nav-icon"/>   
-                            </button>
-                        </Link>
-                        
+                    <div className="nav-header">                        
                         
                         {/* For logo */}
                         <Link to="/" onClick={this.resetToggle} className='nav_logo'>
-                            <img src={logo} alt="Logo" />
+                            <img src={logo} alt="Logo" style={{width:'50px', height:'50px'}}/>
                         </Link>
-
-                        
 
                         {/* For menu icon in mobile view */}
                         <button type="button" className="nav-btn-small-screen" onClick={this.handleToggle}>
@@ -46,21 +34,17 @@ class Navbar extends Component {
                     </div>
 
                     {/* For nav menu */}
-                    <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}>
+                    <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links navbar_font"}>
+                        <li>
+                            <Link to="https://www.google.com/" onClick={this.handleToggle}>Work</Link>
+                        </li>
                         <li>
                             <Link to="https://www.google.com/" onClick={this.handleToggle}>About</Link>
                         </li>
                         <li>
-                            <Link to="https://www.google.com/" onClick={this.handleToggle}>Services</Link>
+                            <Link to="https://www.google.com/" onClick={this.handleToggle}>Contact</Link>
                         </li>
                     </ul>
-
-                    {/* For contact me icon in nav-bar big screen */}
-                    <Link to="/https://www.google.com/" className="nav-btn-big-screen">
-                        <button type="button">
-                            <img src={contact_logo} alt="Logo" className="Nav-icon"/>
-                        </button>
-                    </Link>
 
                 </div>
             </nav>

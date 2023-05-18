@@ -1,13 +1,17 @@
 .jumbo_outer{
-    margin: 0;
     background-color: var(--CCBlue);
-    color: var(--CCBlueLight);
-    font-size: 5em;
-    min-height: 100vh;
+    //min-height: 100vh;
 }
 
 .jumbo_inner{
+    margin: 0;
     width: 86%;
+    max-width: var(--maxContentWidth);
     margin: auto;
     overflow-wrap: break-word;
+    color: var(--CCBlueLight);
+}
+
+h2{
+    display:contents;
 }

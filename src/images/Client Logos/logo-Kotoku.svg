@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 307 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-2122,-328)">
+        <g id="logo-Kotoku" transform="matrix(1,0,0,1,1128,-1444)">
+            <g transform="matrix(0.11811,0,0,0.11811,989.682,1768.16)">
+                <path d="M2460,684c-7,2 -14,2 -21,2c-45,0 -66,-30 -66,-94l0,-335l-142,0l0,362c0,114 52,183 146,183c36,0 63,-11 83,-29l0,-89Zm-1220,-427l-80,0l0,-145l-142,0l0,145l-80,0l0,110l302,0l0,-110Zm-1030,302l109,231l156,0l-167,-324l161,-209l-158,0l-101,142l0,160Zm505,-198c32,11 49,40 49,88l0,149c0,48 -17,77 -49,87l0,116c129,-12 197,-102 197,-277c0,-175 -68,-266 -197,-278l0,115Zm750,324c-32,-10 -48,-39 -48,-87l0,-149c0,-48 16,-77 48,-88l0,-115c-129,12 -197,103 -197,278c0,175 68,265 197,277l0,-116Zm294,105l142,0c0,-258 -5,-490 0,-752l-142,0l0,752Z" style="fill:rgb(204,17,51);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(0.11811,0,0,0.11811,989.682,1768.16)">
+                <path d="M2490,790l142,0l0,-533l-142,0l0,533Zm-2452,0l142,0l0,-752l-142,0l0,752Zm647,-105c-32,-10 -48,-39 -48,-87l0,-149c0,-48 16,-77 48,-88l0,-115c-128,12 -196,103 -196,278c0,175 68,265 196,277l0,-116Zm333,105l142,0l0,-393l-142,0l0,393Zm477,-429c32,11 48,40 48,88l0,149c0,48 -16,77 -48,87l0,116c129,-12 197,-102 197,-277c0,-175 -68,-266 -197,-278l0,115Zm436,198l109,231l156,0l-167,-324l161,-209l-158,0l-95,132l-6,10l0,160Z" style="fill:rgb(166,14,49);fill-rule:nonzero;"/>
+            </g>
+        </g>
+    </g>
+</svg>

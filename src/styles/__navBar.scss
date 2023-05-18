@@ -1,12 +1,13 @@
 .navbar {
     margin-left: 20px;  //these work on mobile view, for larger display check the media queries
     margin-right: 20px;
-    width: auto !important;
+    width: 100%;
     background-color: var(--CCBlue);
     z-index: 1;
   }
   .nav-center {
-    width: 100%;
+    width: auto;
+    max-width: var(--maxContentWidth);  //max for all screens
   }
   .nav-header {
     display: flex;
@@ -54,7 +55,7 @@
     text-transform: capitalize !important;
     text-decoration: none;
     width: 100%;
-    justify-content: center;
+    justify-content: right;
   }
   .nav-links a {
     display: block;
@@ -76,10 +77,17 @@
   }
   @media screen and (min-width: 768px) {
     .navbar{
-      padding: 15px 50px;
-      width: auto;
-      height: auto;
+      padding: 15px 0;
+      width: 100%;
       margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .nav-center {
+      display: flex;
+      width: 86%;
+      max-width: var(--maxContentWidth);
     }
     .nav-btn-small-screen {
       display: none;
@@ -92,34 +100,13 @@
       cursor: pointer;
       outline: none;  
     }
-    .nav-btn-big-screen button{
-      background: transparent;
-      border: none;
-      transition-duration: 1s ease;
-      color: var(--secondaryColor);
-      font-size: 1.2rem;
   
-      // for backward-movement animation thingy
-      // -webkit-transform: perspective(1px) translateZ(0);
-      // transform: perspective(1px) translateZ(0);
-      // box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-      // -webkit-transition-duration: 0.3s;
-      // transition-duration: 0.3s;
-      // -webkit-transition-property: transform;
-      // transition-property: transform; 
-      
-    }
     .nav-btn-big-screen button:hover, .nav-btn-big-screen button:focus, .nav-btn-big-screen button:active{
       -webkit-transform: scale(110%);
       transform: scale(110%);
     }
     .nav-btn-big-screen button:focus {
       outline: none;
-    }
-    .nav-center {
-      max-width: auto;
-      display: flex;
-      vertical-align: middle;
     }
     .nav-links {
       height: auto;

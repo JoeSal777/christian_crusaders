@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 286 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1683,-1716)">
+        <g id="team-icons-process-research" transform="matrix(1,0,0,1,0,72)">
+            <g id="eye">
+                <g transform="matrix(0.11811,0,0,0.11811,1353.04,1641.79)">
+                    <path d="M5169,731c-232,402 -667,672 -1164,672c-497,0 -932,-270 -1164,-672c232,-401 667,-672 1164,-672c497,0 932,271 1164,672Z" style="fill:none;stroke:rgb(0,0,44);stroke-width:35.28px;"/>
+                </g>
+                <g transform="matrix(0.11811,0,0,0.11811,1353.04,1641.79)">
+                    <path d="M4677,731c0,371 -301,672 -672,672c-371,0 -672,-301 -672,-672c0,-371 301,-672 672,-672c371,0 672,301 672,672Z" style="fill:none;stroke:rgb(0,0,44);stroke-width:35.28px;"/>
+                </g>
+            </g>
+            <g id="highlight-pupil" transform="matrix(0.11811,0,0,0.11811,1353.04,1641.79)">
+                <path d="M4005,731l0,-448c247,0 448,201 448,448c0,248 -201,448 -448,448c-247,0 -448,-200 -448,-448c0,-160 85,-308 224,-388l224,388Z" style="fill:none;stroke:rgb(204,17,51);stroke-width:35.28px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
