@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../cc_logo.svg';
+import logo from '../crusader-creative-icon-full-logo.svg';
 import menu_arcade from "../images/menu_arcade_32.png";
 import {Link} from "react-router-dom"; 
 

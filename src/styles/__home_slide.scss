@@ -1,17 +1,24 @@
 .jumbo_outer{
+    height: 90vh;
     background-color: var(--CCBlue);
-    //min-height: 100vh;
 }
-
 .jumbo_inner{
-    margin: 0;
-    width: 86%;
-    max-width: var(--maxContentWidth);
-    margin: auto;
-    overflow-wrap: break-word;
+    position: relative;
+    justify-content: center;
+}
+.jumbo_content{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    }
+.title-jumbo{
+    min-width: 40%;
     color: var(--CCBlueLight);
+    overflow-wrap: break-word;
 }
 
-h2{
-    display:contents;
+.title-jumbo h2{
+    margin: 0;
+    //display:contents;
 }

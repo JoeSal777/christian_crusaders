@@ -7,11 +7,19 @@ export default class LandingPage extends Component {
         return (
             <React.Fragment>
                 <div className='landingPage_wrapper'>
-                    <Jumbotron greeting={"Christ+craft+community."} />
+                    <Jumbotron 
+                        greeting={"Christ+craft+community."}
+                        leftItem={"logos, what not goes here."} 
+                    />
 
-                    <p>logos, what not goes here</p>
+                    <div>
+                        <p>The rest</p>
+                    </div>
 
-                <div className='about'>
+                {/* <div className='about'>
+
+                
+                    
                 <h3>About</h3>
 
                     <p>Crusader Creative is a partnership built on shared faith, and a value for craft.</p>
@@ -103,7 +111,7 @@ export default class LandingPage extends Component {
 
                     <div className='images'></div>
 
-                    </div>
+                    </div> */}
                 </div>
             </React.Fragment>          
         );

@@ -42,17 +42,14 @@
   .nav-btn-big-screen{
     display: none;
   }
-  .nav-icon {
-    font-size: 1.5rem;
-  }
   .nav-links {
     height: 0;
     overflow: hidden;
     transition: var(--mainTransition);
     transition-duration: 1.5s;
     list-style-type: none;
-    color: var(--secondaryColor) !important;
-    text-transform: capitalize !important;
+    color: var(--CCRedTint);
+    text-transform: capitalize;
     text-decoration: none;
     width: 100%;
     justify-content: right;
@@ -64,7 +61,6 @@
     transition: var(--mainTransition);
     text-align: right;
     transition-duration: 1s;
-    //@include standardFonts();
   }
   .nav-links a:hover {
     text-decoration: none;

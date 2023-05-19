@@ -23,23 +23,21 @@
     -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
   }
 
+  //FONT SIZING
   .sub-heading {
     font-size: 1.618rem;
     font-weight: 600;
   }
-  
   .heading {
     font-size: 2.618rem;
     font-weight: 400;
   }
-  
   .large-heading {
-    font-size: 4.236rem;
+    font-size: 4.2rem;
     font-weight: 500;
-    line-height: 120%;
+    line-height: 130%;
     font-family: var(--tertiaryFont);
   }
-  
   .navbar_font{
     font-size: 1.5rem;
     font-weight: 700;
@@ -50,17 +48,29 @@
     font-weight: 500;
   }
 
-  .global_outer_area{
+  //PAGE LAYOUT
+  .global_outter{
     margin: 0;
+    display: flex;
+    //align-items: center;
+    justify-content: center;
   }
-  .global_inner_area{
-    margin: 0;
+  .global_inner{
     width: 86%;
     max-width: var(--maxContentWidth);
+    margin: auto;
+    min-height: 80%;
+    display: flex;
   }
+  // .global_content{
+  //   // display: flex;
+  //   // flex-wrap: wrap;
+  //   background-color: red;
+  // }
   
 
 
+  //SCROLLBAR
   body::-webkit-scrollbar {
     display: none;
   }
