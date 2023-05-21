@@ -8,7 +8,11 @@
             .cls-1{fill:none;stroke:#c13;stroke-miterlimit:10;stroke-width:11.27px;}
             .cls-2,
             .cls-3{isolation:isolate;}
-            .cls-3{font-size:111.01px;fill:#c4c2c2;font-family:BioRhymeExpanded-Regular, BioRhyme Expanded;}
+            .cls-3{
+                font-size:111.01px;
+                fill:#c4c2c2;
+                font-family:BioRhymeExpanded-Regular, BioRhyme Expanded;
+                }
         </style>
     </defs>
     <g id="Crusader-Logo-name"><g id="crusader-icon"><path class="cls-1" d="M149.13,127.94V236H13.79" transform="translate(-13.79 -127.94)"/><path class="cls-1" d="M257.17,263.28H121.83v108" transform="translate(-13.79 -127.94)"/></g><g class="cls-2"><text class="cls-3" transform="translate(148.43 245.66)">c</text><text class="cls-3" transform="translate(254.5 245.66)">r</text><text class="cls-3" transform="translate(359.78 245.66)">u</text><text class="cls-3" transform="translate(486.82 245.66)">s</text><text class="cls-3" transform="translate(589 245.66)">a</text><text class="cls-3" transform="translate(704.05 245.66)">d</text><text class="cls-3" transform="translate(829.97 245.66)">e</text><text class="cls-3" transform="translate(935.71 245.66)">r</text></g><g class="cls-2"><text class="cls-3" transform="translate(148.43 356.67)">c</text><text class="cls-3" transform="translate(254.5 356.67)">r</text><text class="cls-3" transform="translate(356.9 356.67)">e</text><text class="cls-3" transform="translate(462.19 356.67)">a</text><text class="cls-3" transform="translate(576.57 356.67)">t</text><text class="cls-3" transform="translate(651.9 356.67)">i</text><text class="cls-3" transform="translate(717.81 356.67)">v</text><text class="cls-3" transform="translate(826.65 356.67)">e</text>

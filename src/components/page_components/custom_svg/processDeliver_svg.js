@@ -8,7 +8,7 @@ function processDeliver_svg() {
                 data-name="Layer 1" 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 578.37 578.37"
-                className="team-icon">
+                className="team-icon colorType1">
                 <defs>
                     <style>
                         .cls-1,

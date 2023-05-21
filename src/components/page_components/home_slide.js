@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 
 //importing svg images
-import ProcessDeliver from "./custom_svg/processDeliver_svg";
+import ServiceConcierge from "./custom_svg/serviceConcierge_svg";
+import ServiceLogo from "./custom_svg/serviceLogo_svg";
+import ServicePrint from "./custom_svg/servicePrint_svg";
+import ServiceProduct from "./custom_svg/serviceProduct_svg";
+import ServiceWeb from "./custom_svg/serviceWeb_svg";
 
 
 export default class Jumbotron extends Component {
@@ -21,7 +25,11 @@ export default class Jumbotron extends Component {
                         <div className='subjumboElements'>
                             <div className="rightItem-jumbo">
                                 {/* svg images as props */}
-                                <ProcessDeliver />
+                                <ServiceLogo />
+                                <ServiceProduct />
+                                <ServiceWeb />
+                                <ServicePrint />
+                                <ServiceConcierge />
                             </div>
 
                             <div className="leftItem-jumbo">
