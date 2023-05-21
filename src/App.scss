@@ -1,11 +1,12 @@
 :root{
-    --primaryColor:#000000;
+    --primaryColor:#ffffff;
     --secondaryColor:#cdc3ff;
     --CCRed: #cc1133;
     --CCBlue: #00002c;
     --CCBlueLight: #1a1259;
     --CCBlueTint: #ccccee;
     --CCRedTint: #fff3f3;
+    --CCRedTintForNav: #c4c2c2;
     --primaryFont: 'Archivo', sans-serif;
     --secondaryFont: 'BioRhyme', serif;
     --tertiaryFont: 'BioRhyme Expanded', serif;
@@ -40,7 +41,7 @@
   }
   .navbar_font{
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
     font-family: var(--secondaryFont);
   }
   .footnote {
@@ -51,6 +52,7 @@
   //PAGE LAYOUT
   .global_outter{
     margin: 0;
+    padding-top: 80px;
     display: flex;
     //align-items: center;
     justify-content: center;

@@ -16,6 +16,12 @@
   .nav_logo{
     margin: auto;
   }
+  .nav-logo-img{
+    //height:'50px' !important;
+    //swidth:'auto';
+    //background-color: white; 
+    //filter: invert(1);
+  }
   .nav-btn-small-screen {
     background: transparent;
     display: inline-block;
@@ -73,9 +79,10 @@
   }
   @media screen and (min-width: 768px) {
     .navbar{
-      padding: 15px 0;
+      position: fixed;
       width: 100%;
       margin: 0;
+      padding: 15px 0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -114,5 +121,6 @@
     .nav-links a {
       margin: 0 1rem;
       padding: 0.5rem 0;
+      color: var(--CCRedTintForNav);
     }
   }

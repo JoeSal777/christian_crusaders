@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../crusader-creative-icon-full-logo.svg';
+import logo from '../crusader-creative_logo.svg';
 import menu_arcade from "../images/menu_arcade_32.png";
 import {Link} from "react-router-dom"; 
 
@@ -24,12 +24,12 @@ class Navbar extends Component {
                         
                         {/* For logo */}
                         <Link to="/" onClick={this.resetToggle} className='nav_logo'>
-                            <img src={logo} alt="Logo" style={{width:'50px', height:'50px'}}/>
+                            <img src={logo} alt="Logo" style={{width:'auto', height:'50px'}} className='nav-logo-img' />
                         </Link>
 
                         {/* For menu icon in mobile view */}
                         <button type="button" className="nav-btn-small-screen" onClick={this.handleToggle}>
-                            <img src={menu_arcade} alt="Logo" className="Nav-icon"/>  
+                            <img src={menu_arcade} alt="header_menu" className="Nav-icon"/>  
                         </button> 
                     </div>
 

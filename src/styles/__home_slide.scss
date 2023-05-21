@@ -1,5 +1,5 @@
 .jumbo_outer{
-    height: 90vh;
+    height: 100vh;
     background-color: var(--CCBlue);
 }
 .jumbo_inner{
@@ -21,4 +21,12 @@
 .title-jumbo h2{
     margin: 0;
     //display:contents;
+}
+
+.subjumboElements{
+    padding-bottom: 20px;
+}
+
+.team-icon{
+    height: 65px;
 }

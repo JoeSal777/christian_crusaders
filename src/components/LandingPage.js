@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Jumbotron from "./page_components/home_slide";
+// import processDeliver from "./page_components/processDeliver";
 
 export default class LandingPage extends Component {
     render() {
@@ -8,8 +9,7 @@ export default class LandingPage extends Component {
             <React.Fragment>
                 <div className='landingPage_wrapper'>
                     <Jumbotron 
-                        greeting={"Christ+craft+community."}
-                        leftItem={"logos, what not goes here."} 
+                        greeting={"Christ+craft+community."} 
                     />
 
                     <div>

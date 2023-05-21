@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 562.5 562.5" style="enable-background:new 0 0 562.5 562.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#CC1133;stroke-width:15.63;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#00002C;stroke-width:15.63;stroke-miterlimit:10;}
+</style>
+<g id="Crusader-cross-details">
+	<path id="background" class="st0" d="M342.8,562.5h-123C98.4,562.5,0,464.1,0,342.8v-123C0,98.4,98.4,0,219.8,0h123
+		c121.4,0,219.8,98.4,219.8,219.8v123C562.5,464.1,464.1,562.5,342.8,562.5z"/>
+	<g id="Crusader-cross-main">
+		<path class="st1" d="M312.7,0v250.3H0"/>
+		<path class="st1" d="M562.5,312.7H250.2v249.8"/>
+	</g>
+	<g id="Crusader-cross-detail">
+		<path class="st2" d="M250.2,62.5v124.9"/>
+		<path class="st2" d="M62.5,312.7h124.9"/>
+		<path class="st2" d="M312.7,375.1v124.9"/>
+		<path class="st2" d="M375.1,250.3H500"/>
+	</g>
+</g>
+</svg>
